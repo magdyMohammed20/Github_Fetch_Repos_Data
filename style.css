@@ -1,0 +1,55 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 50%;
+  margin: 20px auto
+}
+
+.container h1{
+  text-align: center
+}
+
+.container .requiredData{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .requiredData input{
+  width: 70%
+}
+
+.container .displayData{
+  margin: 10px 0;
+}
+
+.mainDiv{
+  margin: 10px 0;
+  padding-bottom: 12px;
+  border-radius: 7px;
+  box-shadow: 1px 21px 30px 5px #f0f0f0
+}
+
+.repoName{
+  padding: 10px;
+  background-color: #7452EE;
+  color: #FFF;
+  text-align: center;
+}
+
+.mainDiv p:first-child{
+  margin: 0
+}
+
+.mainDiv p:not(:first-child),
+a{
+  padding: 0 7px
+}
+
+a{
+  display: block;
+  text-decoration: none
+}
